@@ -1,0 +1,57 @@
+{
+  "id": "pentra-z-world-foundry-vtt",
+  "title": "Pentra: Z-World",
+  "description": "The Z-World zombie survival setting for Pentra: Five-Dice Engine: the Survival Die, meals and starvation, scavenging, and a world without clinics, markets or lifestyles. Requires the Pentra: Five-Dice Engine Core system.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "url": "https://github.com/millerrichd/pentra-z-world-foundry-vtt",
+  "manifest": "https://raw.githubusercontent.com/millerrichd/pentra-z-world-foundry-vtt/refs/heads/main/module.json",
+  "download": "https://github.com/millerrichd/pentra-z-world-foundry-vtt/archive/refs/heads/main.zip",
+  "authors": [
+    {
+      "name": "Richard Miller",
+      "discord": "turtletopgames"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pentra-core-foundry-vtt",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/millerrichd/pentra-core-foundry-vtt/refs/heads/main/system.json",
+        "compatibility": {
+          "minimum": "0.5.3"
+        }
+      }
+    ]
+  },
+  "socket": true,
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "css/zworld.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    { "name": "hindrances", "label": "Z-World Hindrances", "path": "packs/hindrances", "type": "Item", "system": "pentra-core-foundry-vtt", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "talents", "label": "Z-World Talents", "path": "packs/talents", "type": "Item", "system": "pentra-core-foundry-vtt", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "bestiary", "label": "Z-World Bestiary", "path": "packs/bestiary", "type": "Actor", "system": "pentra-core-foundry-vtt", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+  ],
+  "packFolders": [
+    {
+      "name": "Pentra Z-World",
+      "sorting": "m",
+      "packs": ["hindrances", "talents", "bestiary"]
+    }
+  ]
+}

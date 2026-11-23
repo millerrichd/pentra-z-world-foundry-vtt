@@ -1,0 +1,77 @@
+{
+  "_id": "5e8tzRJJMojBVMNG",
+  "name": "Wolf or Wild Dog",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "attributes": {
+      "charm": {
+        "rank": 1
+      },
+      "finesse": {
+        "rank": 1
+      },
+      "intellect": {
+        "rank": 1
+      },
+      "knowledge": {
+        "rank": 1
+      },
+      "might": {
+        "rank": 1
+      }
+    },
+    "resistances": {
+      "fortitude": {
+        "rank": 0
+      },
+      "mind": {
+        "rank": 0
+      },
+      "reflex": {
+        "rank": 0
+      }
+    },
+    "skills": {
+      "martial_arts": 2
+    },
+    "languages": [],
+    "size": "small",
+    "notes": "<p>Large dogs no longer caged, wandering the wasteland searching for non-zombie food, which the survivors qualify as. They weren't affected by the virus: one killed for food doesn't rise again.</p><p>Gear: nothing.</p><p>Attacks with Martial Arts 2 (1 Wound, even).</p>",
+    "health": {
+      "value": 6,
+      "max": 6
+    },
+    "evasion": {
+      "base": 9
+    },
+    "initiativeDie": {
+      "value": 6
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "pentra-core-foundry-vtt",
+    "systemVersion": "0.5.3"
+  },
+  "prototypeToken": {
+    "name": "Wolf or Wild Dog",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    },
+    "texture": {
+      "src": "icons/svg/pawprint.svg"
+    }
+  },
+  "_key": "!actors!5e8tzRJJMojBVMNG"
+}

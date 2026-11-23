@@ -1,0 +1,25 @@
+{
+  "_id": "cY15r9l7PvRI284J",
+  "name": "Survivalist",
+  "type": "talent",
+  "img": "systems/pentra-core-foundry-vtt/assets/noun_talent_orange@512.webp",
+  "system": {
+    "description": "<p>Your starting Survival Die is increased from d6 to d8.</p>",
+    "trait": "survivalDie",
+    "delta": 1,
+    "requires": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "pentra-core-foundry-vtt",
+    "systemVersion": "0.5.3"
+  },
+  "_key": "!items!cY15r9l7PvRI284J"
+}

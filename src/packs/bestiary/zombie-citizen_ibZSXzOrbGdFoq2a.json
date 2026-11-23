@@ -1,0 +1,77 @@
+{
+  "_id": "ibZSXzOrbGdFoq2a",
+  "name": "Zombie Citizen",
+  "type": "npc",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "attributes": {
+      "charm": {
+        "rank": 0
+      },
+      "finesse": {
+        "rank": 0
+      },
+      "intellect": {
+        "rank": 0
+      },
+      "knowledge": {
+        "rank": 0
+      },
+      "might": {
+        "rank": 0
+      }
+    },
+    "resistances": {
+      "fortitude": {
+        "rank": 0
+      },
+      "mind": {
+        "rank": 0
+      },
+      "reflex": {
+        "rank": 0
+      }
+    },
+    "skills": {
+      "martial_arts": 0
+    },
+    "languages": [],
+    "size": "medium",
+    "notes": "<p>Standard people who died and turned into zombies, either by the virus or by death from other zombies.</p><p>Gear: nothing.</p><p>Attacks with Martial Arts 0 (1 Wound, odd).</p>",
+    "health": {
+      "value": 6,
+      "max": 6
+    },
+    "evasion": {
+      "base": 7
+    },
+    "initiativeDie": {
+      "value": 6
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "pentra-core-foundry-vtt",
+    "systemVersion": "0.5.3"
+  },
+  "prototypeToken": {
+    "name": "Zombie Citizen",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    },
+    "texture": {
+      "src": "icons/svg/skull.svg"
+    }
+  },
+  "_key": "!actors!ibZSXzOrbGdFoq2a"
+}

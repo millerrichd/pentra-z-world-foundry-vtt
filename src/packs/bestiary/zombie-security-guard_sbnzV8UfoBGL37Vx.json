@@ -1,0 +1,149 @@
+{
+  "_id": "sbnzV8UfoBGL37Vx",
+  "name": "Zombie Security Guard",
+  "type": "npc",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "attributes": {
+      "charm": {
+        "rank": 1
+      },
+      "finesse": {
+        "rank": 1
+      },
+      "intellect": {
+        "rank": 1
+      },
+      "knowledge": {
+        "rank": 1
+      },
+      "might": {
+        "rank": 1
+      }
+    },
+    "resistances": {
+      "fortitude": {
+        "rank": 0
+      },
+      "mind": {
+        "rank": 0
+      },
+      "reflex": {
+        "rank": 0
+      }
+    },
+    "skills": {
+      "martial_arts": 1
+    },
+    "languages": [],
+    "size": "medium",
+    "notes": "<p>These security and military guards don't have minds, but they might have something worth scavenging.</p><p>Gear: a Bulletproof Vest (1 AR, torso) and a Reloading or Trauma Kit one die size above the default (a Reloading Kit is included; swap it for a Trauma Kit if you like).</p><p>Attacks with Martial Arts 1 (1 Wound, odd).</p>",
+    "health": {
+      "value": 6,
+      "max": 6
+    },
+    "evasion": {
+      "base": 7
+    },
+    "initiativeDie": {
+      "value": 6
+    }
+  },
+  "items": [
+    {
+      "_id": "APrfKTJF5H0cmFmY",
+      "name": "Bulletproof Vest",
+      "type": "armor",
+      "img": "icons/equipment/chest/bullet-proof-vest-kevlar.webp",
+      "system": {
+        "description": "<p>An armored vest that protects the vitals in the torso. Is wearable under a Leather Jacket or Leather Long Coat.</p>",
+        "legal": true,
+        "ar": 1,
+        "coverage": {
+          "torso": true,
+          "arms": false,
+          "legs": false,
+          "head": false
+        },
+        "evasion": 0,
+        "size": "normal",
+        "cost": {
+          "die": 4,
+          "multiplier": 1
+        },
+        "layerable": true,
+        "heavy": false,
+        "durability": 8,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "pentra-core-foundry-vtt",
+        "systemVersion": "0.5.3"
+      },
+      "_key": "!actors.items!sbnzV8UfoBGL37Vx.APrfKTJF5H0cmFmY"
+    },
+    {
+      "_id": "ebsNAUdeoXArK6zW",
+      "name": "Reloading Kit",
+      "type": "fieldkit",
+      "img": "icons/weapons/ammunition/ammo-magazine-clip.webp",
+      "system": {
+        "description": "<p>Routine ammunition and weapon maintenance. After combat, make a usage check with range 1–2, plus 1 for every 5 rounds of combat fired.</p><p>All kits use the owner's Durability Die as their starting usage die.</p>",
+        "kitType": "reloading",
+        "legal": true,
+        "size": "normal",
+        "cost": {
+          "die": 6,
+          "multiplier": 1
+        },
+        "usage": 10,
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "pentra-core-foundry-vtt",
+        "systemVersion": "0.5.3"
+      },
+      "_key": "!actors.items!sbnzV8UfoBGL37Vx.ebsNAUdeoXArK6zW"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "pentra-core-foundry-vtt",
+    "systemVersion": "0.5.3"
+  },
+  "prototypeToken": {
+    "name": "Zombie Security Guard",
+    "actorLink": false,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "health"
+    },
+    "texture": {
+      "src": "icons/svg/skull.svg"
+    }
+  },
+  "_key": "!actors!sbnzV8UfoBGL37Vx"
+}

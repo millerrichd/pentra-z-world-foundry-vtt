@@ -1,0 +1,67 @@
+{
+  "ZWORLD": {
+    "OtherSetting": "Pentra: Z-World and {names} are both active. They are separate settings: enable only one per world.",
+    "Sheet": {
+      "Character": "Z-World Character Sheet"
+    },
+    "Trait": {
+      "survivalDie": "Survival Die"
+    },
+    "Survival": {
+      "Tooltip": "Food and water on hand. Eat a Meal rolls it against 1–2; scavenging and Survival Kits raise it."
+    },
+    "Meal": {
+      "Button": "Eat a Meal",
+      "Label": "Eat a Meal",
+      "Note": "Survival Die usage check. Either way, you've eaten today.",
+      "Hint": "At least once a day, any time. Today:",
+      "Fed": "eaten",
+      "NotYet": "not eaten yet",
+      "Hungry": "not eaten for {days} day(s)",
+      "NoFood": "{name} has no food left (Survival Die 0). Scavenge or hunt for some."
+    },
+    "Starvation": {
+      "Label": "Starvation",
+      "Note": "No meal for {days} day(s). If the Death Die drops, it never comes back.",
+      "RestNote": "Starvation: if you haven't eaten since your last rest, roll the Death Die against 1 to the days gone hungry."
+    },
+    "Scavenge": {
+      "Button": "Scavenge",
+      "Title": "{name} scavenges",
+      "Hint": "Say what you're looking for, then make a Survival check.",
+      "ShortHint": "Survival check. Food: d4 Survival Die reward for the party; hunting an animal: d6; a kit's supplies: d4 reward on that kit, up to your Durability Die.",
+      "LookingFor": "Looking for",
+      "Food": "Food",
+      "Hunt": "Hunt an animal",
+      "KitSupplies": "Supplies for {kit} ({die})",
+      "Roll": "Scavenge",
+      "RollLabel": "Scavenging: {what}",
+      "Note": "Success finds it.",
+      "Nothing": "{name} found no {what}.",
+      "KitSubtitle": "{die} reward for the kit",
+      "KitRaised": "{kit}: {from} → {to} (rolled {rolls})",
+      "KitHeld": "{kit}: stays {to} (rolled {rolls})",
+      "KitFull": "{kit} is already full ({to}).",
+      "NeedGM": "A GM must be connected to share the find with the party; only your own Survival Die is rolled."
+    },
+    "Reward": {
+      "Title": "Shared find: {what}",
+      "Subtitle": "{die} Survival Die reward for everyone",
+      "Raised": "{name}: {from} → {to} (rolled {rolls})",
+      "Held": "{name}: stays {to} (rolled {rolls})"
+    },
+    "Kit": {
+      "Button": "Eat from Survival Kit",
+      "Hint": "Once per 10-minute activity: a usage check for the kit, then the Survival Die rises on its maximum.",
+      "None": "{name} has no Survival Kit with anything left in it.",
+      "Title": "Eating from {kit}",
+      "Raised": "Survival Die rolled {roll}: {from} → {to}.",
+      "Held": "Survival Die rolled {roll}: stays {to}.",
+      "FromEmpty": "Survival Die was empty: now {to}."
+    },
+    "City": {
+      "DayRest": "Hole up and rest all day: recover 2 wounds.",
+      "More": "Also during city downtime: train with Karma (Advance on the Skills tab). No clinics, markets or socializing in Z-World."
+    }
+  }
+}

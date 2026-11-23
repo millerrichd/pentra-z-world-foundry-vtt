@@ -1,0 +1,10 @@
+/* Pentra: Z-World additions to the core character sheet (warnings use the core's .warning colour). */
+.pentra.zworld .zworld-survival select {
+  width: auto;
+}
+
+/* Starts the Survival Die on its own line in the header's wrapping resource strip. */
+.pentra.zworld .zworld-survival-break {
+  flex-basis: 100%;
+  height: 0;
+}
